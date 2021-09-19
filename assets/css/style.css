@@ -2946,9 +2946,16 @@ canvas {
 }
 
 .centar-flex {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.zoom {
+  transition: 0.90s;
+}
+
+.zoom:hover {
+  transform: scale(1.05);
+}
 /*# sourceMappingURL=style.css.map */
