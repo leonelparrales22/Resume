@@ -2940,4 +2940,15 @@ canvas {
   color: rgb(254, 197, 68);
 }
 
+.parent img {
+  /* height: 100%; */
+  width: 100%;
+}
+
+.centar-flex {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*# sourceMappingURL=style.css.map */
